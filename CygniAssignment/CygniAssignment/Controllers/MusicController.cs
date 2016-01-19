@@ -9,6 +9,7 @@ namespace CygniAssignment.Controllers
 {
     public class MusicController : ApiController
     {
+        //GET api/music
         public string[] Get()
         {
             return new string[]
